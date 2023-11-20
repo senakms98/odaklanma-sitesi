@@ -1,13 +1,12 @@
-const ekranSayacElement = document.getElementById("ekran_sayac");
+const screenCountElement = document.getElementById("screen_count");
  
-let ekran_sayac = 0;
+let screen_count = 0;
  
-function elementinIcineYaz() {
-  ekranSayacElement.innerText = ekran_sayac;
+function writeInsideElement() {
+  screenCountElement.innerText = screen_count;
 }
  
-function ekranSayacArttir() {
-  ekran_sayac++;
-  elementinIcineYaz();
+function addScreenCount() {
+  screen_count++;
+  writeInsideElement();
 }
-
